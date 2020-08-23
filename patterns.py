@@ -171,13 +171,41 @@ def pat7():
             else:
                 print(" ",end=" ")
         print() 
+        
+"""
+**********
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+**********
+"""
+def pat8():
+    print("hello world")
+    n=int(input("enter the number of row\n"))
+    for i in range(0,n):
+        for j in range (0,n):
+            if((i>=1 and i<=(n-2)) and (j>=1 and j<=(n-2))):
+            
+                print(" ",end=" ")
+            else:
+                print("*",end=" ")
+        print()            
+    
+    
 pat1()
 pat2()
 pat3()
 pat4()
 pat5()
 pat6()
-pat7()       
+pat7()  
+pat8()
 
 
 
